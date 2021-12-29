@@ -14,7 +14,7 @@ public class Sku implements Serializable{
 
 	@Id
     @Column(name = "id")
-	private String id;//商品id
+	private Long id;//商品id
 
     @Column(name = "sn")
 	private String sn;//商品条码
@@ -47,7 +47,7 @@ public class Sku implements Serializable{
 	private Date updateTime;//更新时间
 
     @Column(name = "spu_id")
-	private String spuId;//SPUID
+	private Long spuId;//SPUID
 
     @Column(name = "category_id")
 	private Integer categoryId;//类目ID
@@ -76,12 +76,12 @@ public class Sku implements Serializable{
 
 
 	//get方法
-	public String getId() {
+	public Long getId() {
 		return id;
 	}
 
 	//set方法
-	public void setId(String id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	//get方法
@@ -175,12 +175,12 @@ public class Sku implements Serializable{
 		this.updateTime = updateTime;
 	}
 	//get方法
-	public String getSpuId() {
+	public Long getSpuId() {
 		return spuId;
 	}
 
 	//set方法
-	public void setSpuId(String spuId) {
+	public void setSpuId(Long spuId) {
 		this.spuId = spuId;
 	}
 	//get方法
