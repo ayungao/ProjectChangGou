@@ -1,5 +1,6 @@
 package com.changgou.goods.service.impl;
 
+import com.changgou.core.service.impl.CoreServiceImpl;
 import com.changgou.goods.dao.CategoryMapper;
 import com.changgou.goods.dao.SpecMapper;
 import com.changgou.goods.pojo.Category;
@@ -7,7 +8,6 @@ import com.changgou.goods.pojo.Spec;
 import com.changgou.goods.service.SpecService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.changgou.core.service.impl.CoreServiceImpl;
 
 import java.util.List;
 
@@ -19,7 +19,6 @@ import java.util.List;
 @Service
 public class SpecServiceImpl extends CoreServiceImpl<Spec> implements SpecService {
 
-    @Autowired
     private SpecMapper specMapper;
 
     @Autowired

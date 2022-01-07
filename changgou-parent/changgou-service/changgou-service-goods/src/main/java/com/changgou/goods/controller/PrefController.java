@@ -1,10 +1,12 @@
 package com.changgou.goods.controller;
+
+import com.changgou.core.AbstractCoreController;
 import com.changgou.goods.pojo.Pref;
 import com.changgou.goods.service.PrefService;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-import com.changgou.core.AbstractCoreController;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /****
  * @Author:admin

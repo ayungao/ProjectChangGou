@@ -1,7 +1,7 @@
 package com.changgou.goods.service;
-import com.changgou.goods.pojo.Template;
-import com.github.pagehelper.PageInfo;
+
 import com.changgou.core.service.CoreService;
+import com.changgou.goods.pojo.Template;
 /****
  * @Author:admin
  * @Description:Template业务层接口

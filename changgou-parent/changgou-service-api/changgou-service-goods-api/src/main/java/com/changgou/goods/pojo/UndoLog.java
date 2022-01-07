@@ -1,10 +1,8 @@
 package com.changgou.goods.pojo;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.lang.Long;
 import java.util.Date;
-import java.lang.String;
-import java.lang.Integer;
 /****
  * @Author:admin
  * @Description:UndoLog构建

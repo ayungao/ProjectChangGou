@@ -1,8 +1,7 @@
 package com.changgou.goods.pojo;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.lang.String;
-import java.lang.Integer;
 /****
  * @Author:admin
  * @Description:Category构建

@@ -1,7 +1,7 @@
 package com.changgou.goods.service;
-import com.changgou.goods.pojo.CategoryBrand;
-import com.github.pagehelper.PageInfo;
+
 import com.changgou.core.service.CoreService;
+import com.changgou.goods.pojo.CategoryBrand;
 /****
  * @Author:admin
  * @Description:CategoryBrand业务层接口

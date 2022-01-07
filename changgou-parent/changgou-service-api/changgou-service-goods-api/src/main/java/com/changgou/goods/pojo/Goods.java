@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @description:
  * @author: AyuNGao
- * @date: 21/12/29 23:23
+ * @date: 22/1/8 1:03
  */
 public class Goods implements Serializable {
     private Spu spu;

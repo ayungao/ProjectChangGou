@@ -1,10 +1,11 @@
 package com.changgou.goods.service.impl;
+
+import com.changgou.core.service.impl.CoreServiceImpl;
 import com.changgou.goods.dao.TemplateMapper;
 import com.changgou.goods.pojo.Template;
 import com.changgou.goods.service.TemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.changgou.core.service.impl.CoreServiceImpl;
 
 /****
  * @Author:admin

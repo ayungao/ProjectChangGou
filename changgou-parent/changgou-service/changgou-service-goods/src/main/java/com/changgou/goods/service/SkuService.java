@@ -1,7 +1,7 @@
 package com.changgou.goods.service;
-import com.changgou.goods.pojo.Sku;
-import com.github.pagehelper.PageInfo;
+
 import com.changgou.core.service.CoreService;
+import com.changgou.goods.pojo.Sku;
 /****
  * @Author:admin
  * @Description:Sku业务层接口

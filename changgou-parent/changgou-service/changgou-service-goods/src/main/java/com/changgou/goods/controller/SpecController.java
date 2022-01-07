@@ -1,13 +1,12 @@
 package com.changgou.goods.controller;
 
+import com.changgou.core.AbstractCoreController;
 import com.changgou.goods.pojo.Spec;
 import com.changgou.goods.service.SpecService;
-
 import entity.Result;
 import entity.StatusCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.changgou.core.AbstractCoreController;
 
 import java.util.List;
 

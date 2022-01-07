@@ -1,7 +1,7 @@
 package com.changgou.goods.service;
-import com.changgou.goods.pojo.Category;
-import com.github.pagehelper.PageInfo;
+
 import com.changgou.core.service.CoreService;
+import com.changgou.goods.pojo.Category;
 
 import java.util.List;
 
@@ -11,6 +11,5 @@ import java.util.List;
  * @Date 2019/6/14 0:16
  *****/
 public interface CategoryService extends CoreService<Category> {
-
     List<Category> findByParentId(Integer id);
 }

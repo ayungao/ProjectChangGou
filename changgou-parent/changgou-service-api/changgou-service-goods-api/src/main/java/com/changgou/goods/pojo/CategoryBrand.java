@@ -1,7 +1,9 @@
 package com.changgou.goods.pojo;
-import javax.persistence.*;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
-import java.lang.Integer;
 /****
  * @Author:admin
  * @Description:CategoryBrand构建

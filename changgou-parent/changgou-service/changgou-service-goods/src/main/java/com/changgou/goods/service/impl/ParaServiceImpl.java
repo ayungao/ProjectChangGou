@@ -1,5 +1,6 @@
 package com.changgou.goods.service.impl;
 
+import com.changgou.core.service.impl.CoreServiceImpl;
 import com.changgou.goods.dao.CategoryMapper;
 import com.changgou.goods.dao.ParaMapper;
 import com.changgou.goods.pojo.Category;
@@ -7,7 +8,6 @@ import com.changgou.goods.pojo.Para;
 import com.changgou.goods.service.ParaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.changgou.core.service.impl.CoreServiceImpl;
 
 import java.util.List;
 

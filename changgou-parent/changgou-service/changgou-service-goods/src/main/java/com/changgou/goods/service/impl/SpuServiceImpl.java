@@ -1,6 +1,7 @@
 package com.changgou.goods.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.changgou.core.service.impl.CoreServiceImpl;
 import com.changgou.goods.dao.BrandMapper;
 import com.changgou.goods.dao.CategoryMapper;
 import com.changgou.goods.dao.SkuMapper;
@@ -10,7 +11,6 @@ import com.changgou.goods.service.SpuService;
 import entity.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.changgou.core.service.impl.CoreServiceImpl;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;

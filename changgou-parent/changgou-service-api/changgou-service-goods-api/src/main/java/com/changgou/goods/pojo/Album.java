@@ -1,8 +1,7 @@
 package com.changgou.goods.pojo;
+
 import javax.persistence.*;
 import java.io.Serializable;
-import java.lang.Long;
-import java.lang.String;
 /****
  * @Author:admin
  * @Description:Album构建
